@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+* {
+		font-family: "微软雅黑";
+		TEXT-DECORATION:none;
+  }  
+
+
+body {
+	background-color:#EFEFEF;	
+}
+
+div#header{
+	margin: 0 auto;
+	padding: 0;
+	border: 0;
+	width: 937px;
+	text-align: left;
+	
+}
+
+div#wrapper	{
+	margin: 0 auto;
+	padding: 15px 0 15px 0;
+	width: 966px;
+	text-align: left;
+	border: 1px;
+	border-color: #d3d3d3;
+	border-style: solid;
+	background-color:#FFF;
+}
+
+#logo {
+	height: 72px;
+	width: 406px;
+	background-image: url(../../images/logo_mg.png);
+	float:left;
+}
+#menubox {
+	float:left;
+}
+#main {
+	width: 966px;
+	margin-top: 80px;
+	padding-left:15px;
+}
+#footer {
+	height: 40px;
+	width: 933px;
+	margin-left: 15px;
+	border: 1px solid #E6E6E6;
+	background-color: #F3F3F3;
+	text-align:center;
+}
+#footer p {
+	text-align: center;
+	font-size:12px;
+}
